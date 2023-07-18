@@ -18,8 +18,10 @@ int main(void)
 	{
 		putchar(digit);
 		if (digit != 57)
+		{
 			putchar(',');
 			putchar(' ');
+		}
 		digit++;
 	}
 	putchar('\n');
