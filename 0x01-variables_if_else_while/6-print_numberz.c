@@ -5,19 +5,19 @@
 /**
  * main - Entry point
  *
- * Description: reverse alphabet
+ * Description:Numbers of base 10 using putchar
  *
  * Return: Always 0 (success)
 */
 
 int main(void)
 {
-	char ch = 'z';
+	int num = 48;
 
-	while (ch >= 'a')
+	while (num >= 57)
 	{
-		putchar(ch);
-		ch--;
+		putchar(num);
+		num++;
 	}
 	putchar('\n');
 
