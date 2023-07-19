@@ -5,7 +5,7 @@
  *
  * @n: input of the function
  *
- * Return: Always (0) success
+ * Return: last
 */
 
 int print_last_digit(int n)
@@ -19,5 +19,5 @@ int print_last_digit(int n)
 
 	_putchar(last + '0');
 
-	return (0);
+	return (last);
 }
