@@ -11,7 +11,9 @@
 void rev_string(char *s)
 {
 	char temp;
-	char *c = *s;
+	char *c;
+
+	c = s;
 
 	while (*(c + 1) != '\0')
 		c++;
