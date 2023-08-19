@@ -8,14 +8,14 @@
  * Return: natural square root of a number.
  */
 
-int sqrt(int num, int r);
+int sqroot(int num, int r);
 int _sqrt_recursion(int n)
 {
 	return (sqrt(n, 1));
 }
 
 /**
- * sqrt - find  the square root.
+ * sqroot - find  the square root.
  *
  * @num: input number
  * @r: square root
@@ -23,12 +23,12 @@ int _sqrt_recursion(int n)
  * Return: square root of a number.
  */
 
-int sqrt(int num, int r)
+int sqroot(int num, int r)
 {
 	if (r * r == num)
 		return (r);
 	else if (r * r < num)
-		return (sqrt(num, r + 1));
+		return (sqroot(num, r + 1));
 	else
 		return (-1);
 }
