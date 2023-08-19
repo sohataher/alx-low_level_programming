@@ -11,7 +11,7 @@
 int sqroot(int num, int r);
 int _sqrt_recursion(int n)
 {
-	return (sqrt(n, 1));
+	return (sqroot(n, 1));
 }
 
 /**
