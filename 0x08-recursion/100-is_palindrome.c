@@ -35,7 +35,7 @@ int is_palindrome_recursive(char *s, int start, int end)
  * @s: The input string.
  * Return: 1 if the string is a palindrome, 0 otherwise.
  */
-bool is_palindrome(char *s)
+int is_palindrome(char *s)
 {
 	int length = get_length(s);
 
