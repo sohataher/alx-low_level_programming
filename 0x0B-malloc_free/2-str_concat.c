@@ -32,7 +32,7 @@ char *str_concat(char *sl, char *s2)
 	if (s2 == NULL)
 		s2 = "\0";
 
-	sizel = _len(s1);
+	size1 = _len(s1);
 	size2 = _len(s2);
 	con = malloc((size1 + size2) * sizeof(char) + 1);
 
