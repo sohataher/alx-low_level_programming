@@ -17,12 +17,12 @@ int _len(char *s)
 
 /**
 * *str_concat - concatenates two strings
-* @sl: string 1
+* @s1: string 1
 * @s2: string 2
 * Return: pointer
 */
 
-char *str_concat(char *sl, char *s2)
+char *str_concat(char *s1, char *s2)
 {
 	int size1, size2, i;
 	char *con;
