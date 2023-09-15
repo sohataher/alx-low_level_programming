@@ -1,4 +1,4 @@
-#include “3-calc.h"
+#include "3-calc.h"
 
 /**
 * main - check the code for The School students.
@@ -11,7 +11,7 @@ int main(int argc, char **argv)
 {
 	int (*op_func)(int, int), a, b;
 
-	if (arge != 4)
+	if (argc != 4)
 		printf("Error\n"), exit(98);
 
 	a = atoi(argv[1]);
